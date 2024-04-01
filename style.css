@@ -1,0 +1,75 @@
+/*   * - все элементы */
+* {
+    /* обнуляем отступы у все элементов */
+    margin: 0;
+
+    /* запрещает увеличиваться блоку за счет padding'ов */
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.block {
+    background-color: yellow;
+    /* --- БЛОЧНЫЕ СТИЛИ ---- */
+
+    /* ширина блока */
+    width: 500px;
+
+    /* высота блока */
+    height: auto; /* 500px */
+
+    /* Внутренние отступы */
+    padding-top: 50px; /* отступ сверху */
+    padding-left: 50px; /* отступ слева */
+    padding-right: 50px; /* отступ справа */
+    padding-bottom: 50px; /* отступ снизу */
+
+    /* краткая запись */
+    padding: 50px; /* отступы со всех сторон */
+
+    /* Внешние отступы */
+    margin-top: 50px; /* внешний отступ сверху */
+    margin-left: 75px ;/* внешний отступ слева */
+    margin-right: 75px ;/* внешний отступ слева */
+    margin-bottom: 50px; /* внешний отступ снизу */
+
+    /* краткая запись */
+    margin: 50px 75px; /* вертикальный отступ + по бокам */
+
+    /* центрируем блок */
+    margin: 0 auto 75px; 
+    
+    /* Рамки */
+    border-width: 5px; /* размер  */
+    border-style: groove; /* стиль  */
+    border-color: red; /* цвет */
+
+    /* краткая запись*/
+    border: 5px solid green;
+
+    /* скругление углов */
+    border-radius: 2000px;
+    text-align: center;
+}
+
+.btn {
+    width: 300px;
+    height: 50px;
+    background:none;
+    border: 0;
+    font-size: 16px;
+    border-radius: 50px;
+    border: 2px solid blue;
+}
